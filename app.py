@@ -26,6 +26,6 @@ class Septum:
         except Exception:
             result = '127.0.0.1'
         finally:
-            s.close()
+            sock.close()
         return result
 
